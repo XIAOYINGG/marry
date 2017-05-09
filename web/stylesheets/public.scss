@@ -1,0 +1,17 @@
+// pixels to rems
+$baseFontSize: 37.5px;
+@function px2rem($px) {
+  @return $px / $baseFontSize * 1rem;
+}
+
+//game rule image
+$game-rule-image:"/partygo/assets/images/videoDetail/people.png";
+
+//game rule mask color
+$game-rule-mask-color:rgba(0, 0, 0, 0.4);
+
+//progress bar color
+$bar-container-color:#000;
+$bar-container-border-color:#111;
+$bar-background-color:#2187e7;
+$bar-shadow-color:rgba(0,198,255,0.4);
